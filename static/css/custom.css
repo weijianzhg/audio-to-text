@@ -1,0 +1,23 @@
+/* Custom styles to complement Bootstrap theme */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#transcriptionText {
+    resize: vertical;
+    min-height: 200px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    .card {
+        margin: 0 -12px;
+        border-radius: 0;
+    }
+    
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
