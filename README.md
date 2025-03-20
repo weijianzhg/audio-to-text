@@ -20,7 +20,7 @@ A Flask-based web application that converts audio files to text using OpenAI's W
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/weijianzhg/audio-to-text
 cd audio-to-text
 ```
 
